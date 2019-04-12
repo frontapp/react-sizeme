@@ -8,6 +8,7 @@
   "files": [
     "*.js",
     "*.md",
+    "*.d.ts",
     "dist"
   ],
   "repository": {
