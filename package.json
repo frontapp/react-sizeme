@@ -1,5 +1,5 @@
 {
-  "name": "react-sizeme",
+  "name": "@frontapp/react-sizeme",
   "version": "2.5.2",
   "description": "Make your React Components aware of their dimensions and position.",
   "license": "MIT",
