@@ -205,7 +205,7 @@ function withSize(config = defaultConfig) {
         this.hasSizeChanged = () => undefined
         this.checkIfSizeChanged = () => undefined
 
-        if (this.domEl) {
+        if (this.domEl && this.domEl.parentNode) {
           this.detector.uninstall(this.domEl)
           this.domEl = null
         }
